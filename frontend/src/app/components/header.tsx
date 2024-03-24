@@ -10,7 +10,16 @@ import { motion } from "framer-motion";
 export default function Header() {
   return (
     <header className="z-[999] relative">
-      <div className="fixed top-0 w-full bg-black px-5 sm:px-[5rem] flex items-center justify-between">
+      <motion.div
+        className="fixed top-0 w-full bg-black px-5 sm:px-[5rem] flex items-center justify-between"
+        initial={{ opacity: 0, y: -100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          type: "spring",
+          stiffness: 380,
+          damping: 30,
+        }}
+      >
         <div className="sm:w-[14.5rem] sm:h-[4.5rem] relative sm:my-3">
           <Image
             src={bulldogGymLogo}
@@ -21,7 +30,7 @@ export default function Header() {
           ></Image>
         </div>
         <nav>
-          <ul className="flex flex-wrap items-center justify-center text-[0.9rem] font-medium sm:w-[initial] sm:flex-nowrap sm:gap-5">
+          <ul className="flex flex-wrap items-center justify-center text-[0.9rem] uppercase sm:w-[initial] sm:flex-nowrap sm:gap-5 font-medium">
             {links.map((link) => (
               <motion.li
                 className="flex items-center justify-center relative"
@@ -37,7 +46,7 @@ export default function Header() {
             ))}
           </ul>
         </nav>
-      </div>
+      </motion.div>
     </header>
   );
 }
