@@ -7,7 +7,6 @@ import { sendEmail } from "../../../actions/sendEmail";
 import { motion } from "framer-motion"
 import toast from "react-hot-toast";
 import BtnSend from "./btn-send";
-import Map from "../components/map/map";
 
 export default function Ready() {
   return (
@@ -23,7 +22,7 @@ export default function Ready() {
       <div className="flex justify-center items-center">
         <div>
         <p>Podemos ponernos en contacto mediante este formulario o visitando nuestra sucursal física</p>
-        <Map></Map>
+        {/* <Map></Map> */}
         </div>
         <div>
           <form className="flex flex-col mt-10 text-black" action={async (formData) => {
