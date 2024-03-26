@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import bulldogGymLogo from "../../../public/bulldoggym-logo.png";
+import bulldogGymLogo from "../../../public/bulldoggym.png";
 import { TbWorld } from "react-icons/tb";
 import { FaLocationDot } from "react-icons/fa6";
 import { BsFillTelephoneFill } from "react-icons/bs";
@@ -13,7 +13,7 @@ export default function Footer() {
         <div className=" sm:my-3 flex flex-col gap-[2px] text-[#939fa3]">
           <a
             href="/"
-            className="sm:w-[10.5rem] sm:h-[10rem] flex relative mb-2"
+            className="sm:h-[10rem] flex relative mb-2"
           >
             <Image
               src={bulldogGymLogo}

@@ -6,6 +6,8 @@ import bulldogGymLogo from "../../../public/bulldoggym.png";
 import Link from "next/link";
 import { links } from "../../../lib/data";
 import { motion } from "framer-motion";
+import { FaUserAlt } from "react-icons/fa";
+import { FaCircleUser } from "react-icons/fa6";
 
 export default function Header() {
   return (
@@ -44,6 +46,11 @@ export default function Header() {
                 </Link>
               </motion.li>
             ))}
+            <li className="p-3">
+              <a href="">
+                <FaCircleUser className="text-[#ffb114] text-3xl hover:text-[#ffd277] transition" />
+              </a>
+            </li>
           </ul>
         </nav>
       </motion.div>
