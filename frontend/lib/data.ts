@@ -4,12 +4,6 @@ import HeroBgImageMA from "../public/hero-bg.jpg";
 import HeroBgImageGymMen from "../public/hero-bg-2.jpg";
 import HeroBgImageWoman from "../public/hero-bg-3.jpg";
 
-export const contact = [
-  {
-    title: "Address",
-    text: "123 Main Street, Anytown, CA 12345",
-  },
-];
 export const links = [
   {
     name: "Home",
@@ -18,14 +12,42 @@ export const links = [
   {
     name: "About",
     path: "/about",
+
   },
   {
     name: "Coaches",
     path: "/coaches",
+    dropdown: [
+      {
+        name: "Personal Trainers",
+        path: "/personal-trainers",
+      },
+      {
+        name: "Group Classes",
+        path: "/group-classes",
+      },      {
+        name: "Nutrition",
+        path: "/nutrition",
+      }, {
+        name: "Wanna work with us?",
+        path: "/wanna-work-with-us",
+
+      }
+    ]
   },
   {
     name: "Classes",
     path: "/classes",
+    dropdown: [
+      {
+        name: "Classes Overview",
+        path: "/classes-overview",
+      },
+      {
+        name: "Schedule",
+        path: "/schedule",
+      },
+    ]
   },
   {
     name: "Contact",
