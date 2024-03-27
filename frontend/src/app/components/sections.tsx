@@ -4,19 +4,19 @@ import { GoPerson, GoPlay, GoPlus } from "react-icons/go";
 
 export default function Sections() {
   return (
-    <section className="p-[100px] bg-black">
-      <div className="sm:w-[1320px] mx-auto text-white/80 flex justify-between gap-[35px]">
+    <section className="p-[6.25rem] bg-black">
+      <div className="sm:w-[82.5rem] mx-auto text-white/80 flex justify-between gap-[2.188rem]">
         {/* REFACTORIZAR ESTO PORQUE ES ALGO QUE PUEDE REPETIRSE EN OTRO COMPONENTE */}
         <a
           href="/ejercicios"
-          className="group relative bg-blackborder border border-[#ffb11483] pt-[40px] pb-[54px] px-[20px] flex flex-col text-center items-center justify-between"
+          className="group relative bg-blackborder border border-[#ffb11483] pt-[2.5rem] pb-[3.375rem] px-[1.25rem] flex flex-col text-center items-center justify-between"
         >
           <CiCalendarDate className="text-7xl group-hover:translate-y-1 group-hover:opacity-0 duration-200 ease-in-out transition-all" />
-          <h2 className="group-hover:translate-y-1 group-hover:opacity-0 duration-200 ease-in-out transition-all mt-[10px] mb-[25px] text-2xl">
+          <h2 className="group-hover:translate-y-1 group-hover:opacity-0 duration-200 ease-in-out transition-all mt-[0.625rem] mb-[1.563rem] text-2xl">
             Horarios
           </h2>
           <div className="group-hover:opacity-0 duration-100 ease-in-out transition-all bg-[#ffb1147e] w-20 h-0.5 rounded-full hidden sm:block"></div>
-          <p className="group-hover:-translate-y-24 duration-200 transition-all  mt-[20px] text-sm">
+          <p className="group-hover:-translate-y-24 duration-200 transition-all  mt-[1.25rem] text-sm">
             Acá vas a poder los horarios semanales de todas nuestras clases y
             actividades
           </p>
@@ -27,14 +27,14 @@ export default function Sections() {
         </a>
         <a
           href="/ejercicios"
-          className="group relative bg-blackborder border border-[#ffb11483] pt-[40px] pb-[54px] px-[20px] flex flex-col text-center items-center justify-between"
+          className="group relative bg-blackborder border border-[#ffb11483] pt-[2.5rem] pb-[3.375rem] px-[1.25rem] flex flex-col text-center items-center justify-between"
         >
           <CiMedal className="text-7xl group-hover:translate-y-1 group-hover:opacity-0 duration-200 ease-in-out transition-all" />
-          <h2 className="group-hover:translate-y-1 group-hover:opacity-0 duration-200 ease-in-out transition-all mt-[10px] mb-[25px] text-2xl">
+          <h2 className="group-hover:translate-y-1 group-hover:opacity-0 duration-200 ease-in-out transition-all mt-[0.625rem] mb-[1.563rem] text-2xl">
             Membresias
           </h2>
           <div className="group-hover:opacity-0 duration-200 ease-in-out transition-all bg-[#ffb1147e] w-20 h-0.5 rounded-full hidden sm:block"></div>
-          <p className="group-hover:-translate-y-24 duration-200 transition-all  mt-[20px] text-sm">
+          <p className="group-hover:-translate-y-24 duration-200 transition-all  mt-[1.25rem] text-sm">
             Acá vas a poder los horarios semanales de todas nuestras clases y
             actividades
           </p>
@@ -45,14 +45,14 @@ export default function Sections() {
         </a>
         <a
           href="/ejercicios"
-          className="group relative bg-blackborder border border-[#ffb11483] pt-[40px] pb-[54px] px-[20px] flex flex-col text-center items-center justify-between"
+          className="group relative bg-blackborder border border-[#ffb11483] pt-[2.5rem] pb-[3.375rem] px-[1.25rem] flex flex-col text-center items-center justify-between"
         >
           <GoPerson className="text-7xl group-hover:translate-y-1 group-hover:opacity-0 duration-200 ease-in-out transition-all" />
-          <h2 className="group-hover:translate-y-1 group-hover:opacity-0 duration-200 ease-in-out transition-all mt-[10px] mb-[25px] text-2xl">
+          <h2 className="group-hover:translate-y-1 group-hover:opacity-0 duration-200 ease-in-out transition-all mt-[0.625rem] mb-[1.563rem] text-2xl">
             Entrenamiento Personal
           </h2>
           <div className="group-hover:opacity-0 duration-200 ease-in-out transition-all bg-[#ffb1147e] w-20 h-0.5 rounded-full hidden sm:block"></div>
-          <p className="group-hover:-translate-y-24 duration-200 transition-all  mt-[20px] text-sm">
+          <p className="group-hover:-translate-y-24 duration-200 transition-all  mt-[1.25rem] text-sm">
             Acá vas a poder los horarios semanales de todas nuestras clases y
             actividades
           </p>
@@ -63,14 +63,14 @@ export default function Sections() {
         </a>
         <a
           href="/ejercicios"
-          className="group relative bg-blackborder border border-[#ffb11483] pt-[40px] pb-[54px] px-[20px] flex flex-col text-center items-center justify-between"
+          className="group relative bg-blackborder border border-[#ffb11483] pt-[2.5rem] pb-[3.375rem] px-[1.25rem] flex flex-col text-center items-center justify-between"
         >
           <GoPlay className="text-7xl group-hover:translate-y-1 group-hover:opacity-0 duration-200 ease-in-out transition-all" />
-          <h2 className="group-hover:translate-y-1 group-hover:opacity-0 duration-200 ease-in-out transition-all mt-[10px] mb-[25px] text-2xl">
+          <h2 className="group-hover:translate-y-1 group-hover:opacity-0 duration-200 ease-in-out transition-all mt-[0.625rem] mb-[1.563rem] text-2xl">
             Ejercicios
           </h2>
           <div className="group-hover:opacity-0 duration-200 ease-in-out transition-all bg-[#ffb1147e] w-20 h-0.5 rounded-full hidden sm:block"></div>
-          <p className="group-hover:-translate-y-24 duration-200 transition-all  mt-[20px] text-sm">
+          <p className="group-hover:-translate-y-24 duration-200 transition-all  mt-[1.25rem] text-sm">
             Acá vas a poder los horarios semanales de todas nuestras clases y
             actividades
           </p>

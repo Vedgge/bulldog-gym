@@ -109,7 +109,7 @@ const h1 = {
     "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
   fontSize: "24px",
   fontWeight: "bold",
-  margin: "40px 0",
+  margin: "2.5rem 0",
   padding: "0",
 };
 

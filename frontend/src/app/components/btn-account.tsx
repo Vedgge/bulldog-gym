@@ -26,7 +26,7 @@ export default function AccountBtn() {
           enterFrom="transform opacity-0 translateY(-10px)"
           enterTo="transform opacity-100 translateY(0)"
         >
-          <Menu.Items className="absolute right-full translate-x-[35px] top-full px-4 py-2 mt-2 rounded-xl bg-black shadow-lg focus:outline-none">
+          <Menu.Items className="absolute right-full translate-x-[2.188rem] top-full px-4 py-2 mt-2 rounded-xl bg-black shadow-lg focus:outline-none">
             <div className="text-wrap w-max">
               <Menu.Item>
                 {({ active }) => (

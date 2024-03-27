@@ -9,7 +9,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 export default function Footer() {
   return (
     <footer className="mb-5 text-neutral-300">
-      <div className="sm:mx-[10%] border-b sm:pt-[30px] sm:pb-[20px] flex justify-between">
+      <div className="sm:mx-[10%] border-b sm:pt-[1.875rem] sm:pb-[1.25rem] flex justify-between">
         <div className=" sm:my-3 flex flex-col gap-[2px] text-[#939fa3]">
           <a
             href="/"
@@ -25,7 +25,7 @@ export default function Footer() {
           </a>
           <a
             href="/"
-            className="hover:text-[#ffd277] transition-all flex gap-2 items-center pt-[30px]"
+            className="hover:text-[#ffd277] transition-all flex gap-2 items-center pt-[1.875rem]"
           >
             <TbWorld />
             www.bulldoggym.com.ar

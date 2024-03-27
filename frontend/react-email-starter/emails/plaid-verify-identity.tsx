@@ -120,7 +120,7 @@ const code = {
   fontSize: "32px",
   fontWeight: 700,
   letterSpacing: "6px",
-  lineHeight: "40px",
+  lineHeight: "2.5rem",
   paddingBottom: "8px",
   paddingTop: "8px",
   margin: "0 auto",
@@ -134,7 +134,7 @@ const paragraph = {
   fontFamily: "HelveticaNeue,Helvetica,Arial,sans-serif",
   letterSpacing: "0",
   lineHeight: "23px",
-  padding: "0 40px",
+  padding: "0 2.5rem",
   margin: "0",
   textAlign: "center" as const,
 };

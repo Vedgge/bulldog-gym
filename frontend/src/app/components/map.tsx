@@ -51,6 +51,6 @@ export function Map() {
 
 
   return (
-    <div className='h-[600px] w-full' ref={mapRef}></div>
+    <div className='h-[37.5rem] w-full' ref={mapRef}></div>
   )
 }

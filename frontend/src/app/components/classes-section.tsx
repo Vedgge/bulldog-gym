@@ -26,7 +26,7 @@ const fadeInVariantesAnimacion = {
 
 export default function Classes() {
   return (
-    <section className="p-[100px] sm:h-[60rem] relative">
+    <section className="p-[6.25rem] sm:h-[60rem] relative">
       <Image
         src={ClassSectionImg}
         alt="BullDog logo"
@@ -45,7 +45,7 @@ export default function Classes() {
           }}
         >
           <h2
-            className={`${anton.className} uppercase text-[#ffb114] text-[100px] leading-tight`}
+            className={`${anton.className} uppercase text-[#ffb114] text-[6.25rem] leading-tight`}
           >
             Bulldog Gym
           </h2>
@@ -92,7 +92,7 @@ export default function Classes() {
           >
             <a
               href=""
-              className="font-medium py-[15px] px-[30px] rounded-xl border border-[#ffb114] hover:bg-[#ffb114] hover:text-black duration-200 transition-all"
+              className="font-medium py-[0.938rem] px-[1.875rem] rounded-xl border border-[#ffb114] hover:bg-[#ffb114] hover:text-black duration-200 transition-all"
             >
               Ver todas las clases
             </a>
