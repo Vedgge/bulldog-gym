@@ -7,13 +7,16 @@ type HeroBgCarouselProps = {
 export function HeroBgCarousel({ bgUrls }: HeroBgCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  // peak stupidty ahead
+  const infiniteUrls = [...bgUrls, ...bgUrls, ...bgUrls, ...bgUrls];
+
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % bgUrls.length);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % infiniteUrls.length);
     }, 4000);
 
     return () => clearInterval(interval);
-  }, [bgUrls]);
+  }, [infiniteUrls]);
 
   return (
     <div className="w-full h-full overflow-hidden relative">
@@ -21,12 +24,12 @@ export function HeroBgCarousel({ bgUrls }: HeroBgCarouselProps) {
         className="flex h-full transition-transform duration-1000 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
-        {bgUrls.map((url, index) => (
+        {infiniteUrls.map((url, index) => (
           <img
             key={index}
             src={url}
             alt="Hero Background Carousel"
-            className="w-full h-full object-cover filter brightness-[30%]  z-[-1]"
+            className="w-full h-full object-cover filter brightness-[30%] z-[-1]"
           />
         ))}
       </div>
