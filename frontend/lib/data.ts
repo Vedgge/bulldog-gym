@@ -12,7 +12,16 @@ export const links = [
   {
     name: "About",
     path: "/about",
-
+    dropdown: [
+      {
+        name: "Who we are",
+        path: "/who-we-are",
+      },
+      {
+        name: "Virtual tour",
+        path: "/virtual-tour",
+      },
+    ],
   },
   {
     name: "Coaches",
@@ -25,15 +34,16 @@ export const links = [
       {
         name: "Group Classes",
         path: "/group-classes",
-      },      {
+      },
+      {
         name: "Nutrition",
         path: "/nutrition",
-      }, {
+      },
+      {
         name: "Wanna work with us?",
         path: "/wanna-work-with-us",
-
-      }
-    ]
+      },
+    ],
   },
   {
     name: "Classes",
@@ -47,7 +57,7 @@ export const links = [
         name: "Schedule",
         path: "/schedule",
       },
-    ]
+    ],
   },
   {
     name: "Contact",
@@ -102,16 +112,16 @@ export const classesGym = [
     path: "/aerobox",
     number: "5",
   },
-//   {
-//     title: "GAP",
-//   },
-//   {
-//     title: "Yoga",
-//   },
-//   {
-//     title: "Zumba",
-//   },
-//   {
-//     title: "Pilates",
-//   },
+  //   {
+  //     title: "GAP",
+  //   },
+  //   {
+  //     title: "Yoga",
+  //   },
+  //   {
+  //     title: "Zumba",
+  //   },
+  //   {
+  //     title: "Pilates",
+  //   },
 ] as const;

@@ -5,7 +5,7 @@ import bulldogGymLogo from "../../../public/bulldoggym.png";
 import Link from "next/link";
 import { links } from "../../../lib/data";
 import { motion } from "framer-motion";
-import { FaCircleUser } from "react-icons/fa6";
+import AccountBtn from "./btn-account";
 
 export default function Header() {
   const [hoverLink, sethoverLink] = useState<number | null>(null);
@@ -70,10 +70,8 @@ export default function Header() {
                 )}
               </motion.li>
             ))}
-            <li className="p-3">
-              <a href="">
-                <FaCircleUser className="text-[#ffb114] text-3xl hover:text-[#ffd277] transition" />
-              </a>
+            <li className=" p-5 flex items-center justify-center relative">
+              <AccountBtn></AccountBtn>
             </li>
           </ul>
         </nav>
